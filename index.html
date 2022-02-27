@@ -1,36 +1,56 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Intro to JS Quiz</title>
-  </head>
-  <body>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
 
-    <div class="container text-center instructions">
-      <!-- Content here -->
-      <h1>JavaScript Quiz</h1>
-      <p>Are you a JavaScript beginner?</p>
-      <p>Test your knowledge so far with this timed short quiz!</p>
-      <p>You will be presented with questions and multiple choice answers. For every question that you answer incorrectly, your remaining time will decrease. </p>
-      <p>The amount of time that you have remaining will be your score.
-      <p>Click the "High Scores" text (below) to see your scores. </p>
-      </p>
-    </div>
+  <title>Intro to JS Quiz</title>
+</head>
 
-    <div class="container text-center high-scores">
-      <!-- Content here -->
-      <h3 id = 'high-scores-box'>High Scores</h3>
-    </div>
+<body>
+  <div class="container text-center hide" id= "timer">
+    <!-- Content here -->
+    <h3 id='high-scores-box'>Timer</h3>
+  </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <div class="container text-center instructions">
+    <!-- Content here -->
+    <h1>JavaScript Quiz</h1>
+    <p>Are you a JavaScript beginner?</p>
+    <p>Test your knowledge so far with this timed short quiz!</p>
+    <p>You will be presented with questions and multiple choice answers. For every question that you answer incorrectly,
+      your remaining time will decrease. </p>
+    <p>The amount of time that you have remaining will be your score.
+    <p>Click the "High Scores" text (below) to see your scores. </p>
+    </p>
+  </div>
 
-  </body>
+  <!-- //high scores container -->
+  <div class="container text-center high-scores">
+    <!-- Content here -->
+    <h3 id='high-scores-box'>High Scores</h3>
+  </div>
+  <!-- //high scores container end -->
+
+  <!-- start button -->
+  <div class="container text-center high-scores">
+    <button type="button" class="btn btn-light" id= "btn-start">Start Quiz</button>
+  </div>
+  <!-- start button end-->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script>
+
+</body>
+
 </html>

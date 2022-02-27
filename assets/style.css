@@ -1,3 +1,12 @@
+:root{
+  --background-color: #36393B;
+}
+
+body{
+  background-color: var(--background-color);
+  color:white;
+}
+
 .instructions {
   margin-top: 5%;
 }
@@ -8,9 +17,14 @@
 
 #high-scores-box {
   margin-top: 15%;
-  background-color: aqua;
 }
 
 .hide{
   display: none;
+}
+
+#timer{
+  margin-top: 7%;
+  font-size: 30;
+  color:red;
 }
