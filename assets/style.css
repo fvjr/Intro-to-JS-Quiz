@@ -1,0 +1,16 @@
+.instructions {
+  margin-top: 5%;
+}
+
+.high-scores{  
+  max-width: 35%;
+}
+
+#high-scores-box {
+  margin-top: 15%;
+  background-color: aqua;
+}
+
+.hide{
+  display: none;
+}
